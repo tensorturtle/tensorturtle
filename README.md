@@ -1,5 +1,6 @@
+Hi, I'm Jason 👋
 
-
+Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
