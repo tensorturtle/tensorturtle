@@ -4,7 +4,9 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Latest Projects 🎨
 
-### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique): safer cycling with AI.
+### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique)
+
+Hyper-Domestique is a fully open-sourced effort to promote community development of active safety features on bicycles, e-bikes and other two-wheeled vehicles. 
 
 
 <!--
