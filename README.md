@@ -1,4 +1,4 @@
-Hi, I'm Jason 👋
+neuroquantifier is **Jason Sohn**
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
