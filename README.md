@@ -4,7 +4,7 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Latest Projects 🎨
 
-### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique): safer cycling with AI computer vision
+### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique): safer cycling with the latest in computer vision.
 
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
