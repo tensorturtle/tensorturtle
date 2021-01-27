@@ -6,7 +6,7 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique)
 
-Hyper-Domestique is a fully open-sourced effort to promote community development of active safety features on bicycles, e-bikes and other two-wheeled vehicles. 
+Hyper-Domestique is a fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
 
 
 <!--
