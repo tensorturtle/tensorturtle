@@ -1,6 +1,7 @@
 ### Hi, I'm Jason 👋
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
+Let's make something great together.
 
 ## Latest Projects 🎨
 
