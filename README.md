@@ -6,7 +6,7 @@ Let's make something great together.
 
 ## Latest Projects 🎨
 
-### 🚴‍ [HyperDomestique](https://github.com/neuroquantifier/HyperDomestique)
+### 🚴‍ [HYPER-DOMESTIQUE](https://github.com/neuroquantifier/hyper-domestique)
 
 Hyper-Domestique is a fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
 
