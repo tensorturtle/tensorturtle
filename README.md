@@ -8,7 +8,7 @@ Let's make something great together.
 
 ### 🚴‍ [HYPER-DOMESTIQUE](https://github.com/neuroquantifier/hyper-domestique)
 
-Hyper-Domestique is a fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
+A fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
 
 
 <!--
