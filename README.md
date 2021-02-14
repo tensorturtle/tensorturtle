@@ -1,5 +1,5 @@
 ### Hi, I'm Jason 👋
-[reference](https://neuroquantifier.github.io/)
+[code snippets](https://neuroquantifier.github.io/)
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
