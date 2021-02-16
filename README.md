@@ -1,9 +1,10 @@
 ### Hi, I'm Jason 👋
-[code snippets](https://neuroquantifier.github.io/)
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 Let's make something great together.
+
+[Where I keep my code snippets & references for covenience](https://neuroquantifier.github.io/)
 
 ## Latest Projects 🎨
 
