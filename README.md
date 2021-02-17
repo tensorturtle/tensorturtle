@@ -8,9 +8,13 @@ Let's make something great together.
 
 ## Latest Projects 🎨
 
-### 🚴‍ [HYPER-DOMESTIQUE](https://github.com/neuroquantifier/hyper-domestique)
+### [HYPER-DOMESTIQUE](https://github.com/tensorturtle/hyper-domestique)
 
 A fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
+
+### [mtb-classifier](https://github.com/tensorturtle/mtb-classifier)
+
+Classify images into full suspension and hardtail mountain bikes with [fast.ai](https://github.com/fastai/fastai).
 
 
 <!--
