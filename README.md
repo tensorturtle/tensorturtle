@@ -8,7 +8,7 @@ Let's make something great together.
 
 ## Latest Projects 🎨
 
-### 🚴‍ [HYPER-DOMESTIQUE](https://github.com/tensorturtle/hyper-domestique)
+### [HYPER-DOMESTIQUE](https://github.com/tensorturtle/hyper-domestique)
 
 A fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
 
