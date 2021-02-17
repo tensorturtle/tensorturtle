@@ -12,3 +12,7 @@ alias docker-yolov5='nvidia-docker run -ti -P --shm-size=10g -v ~/Desktop/Docker
 
 
 alias tb='tensorboard dev upload --logdir .'
+
+alias ga='git add .;git commit -a'
+alias gp='git push'
+alias gl='git pull'
