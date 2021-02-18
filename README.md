@@ -14,7 +14,7 @@ A fully open-sourced development of active safety technology on bicycles, e-bike
 
 ### [mtb-classifier](https://github.com/tensorturtle/mtb-classifier)
 
-Classify images into full suspension and hardtail mountain bikes with [fast.ai](https://github.com/fastai/fastai).
+Toy project using [fast.ai](https://github.com/fastai/fastai). to classify images into full suspension and hardtail mountain bikes.
 
 
 <!--
