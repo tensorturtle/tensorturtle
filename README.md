@@ -2,7 +2,7 @@
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
-CTO at Kaboom Labs
+**CTO at Kaboom Labs**
 
 Let's make something great together.
 
