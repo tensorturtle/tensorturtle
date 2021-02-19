@@ -26,8 +26,8 @@ unset __conda_setup
 
 # 'we' and 'er' are shortcuts to launch remote fastai Jupyter notebook
 
-alias we="ssh -p 1118 jason@tesla.ddns.net;jupyter lab --no-browser --port=8888
-alias er="ssh -p 1118 -NfL localhost:8888:localhost:8888 jason@tesla.ddns.net
+alias we="ssh -p 1118 jason@tesla.ddns.net"
+alias er="ssh -p 1118 -NfL localhost:8888:localhost:8888 jason@tesla.ddns.net"
 
 export PATH="/Users/jason/.local/bin:${PATH}"
 export PATH="/Users/jason/.ghcup:${PATH}"
