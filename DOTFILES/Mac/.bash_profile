@@ -26,7 +26,7 @@ unset __conda_setup
 
 # 'we' and 'er' are shortcuts to launch remote fastai Jupyter notebook
 
-alias we='ssh jason@tesla.ddns.net;conda activate fastai;jupyter notebook --no-browser --port=8888'
+alias we='ssh -p 1118 jason@tesla.ddns.net;jupyter notebook --no-browser --port=8888'
 alias er='ssh -NfL localhost:8888:localhost:8888 jason@tesla.ddns.net'
 
 export PATH="/Users/jason/.local/bin:${PATH}"
@@ -35,3 +35,7 @@ export PATH="/Users/jason/.ghcup:${PATH}"
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
+alias gl="git pull"
+alias ga="git add .;git commit -a"
+alias gp="git push"
