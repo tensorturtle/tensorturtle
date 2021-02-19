@@ -1,8 +1,8 @@
 ### Hi, I'm Jason 👋
 
-Invention is my passion, contemplation is my hobby, and learning is my habit.
+**Lead Developer at Kaboom Labs**
 
-**CTO at Kaboom Labs**
+Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Latest Projects 🎨
 
