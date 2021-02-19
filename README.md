@@ -2,15 +2,16 @@
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
+CTO at Kaboom Labs
+
 Let's make something great together.
 
 [Where I keep my code snippets & references for covenience](https://tensorturtle.github.io/)
 
 ## Latest Projects 🎨
 
-### [HYPER-DOMESTIQUE](https://github.com/tensorturtle/hyper-domestique)
-
-A fully open-sourced development of active safety technology on bicycles, e-bikes and other two-wheeled vehicles. 
+### [HYPER-DOMESTIQUE by Kaboom Labs](https://hyperdomestique.com)
+active safety technology on bicycles, e-bikes and other two-wheeled vehicles.
 
 ### [mtb-classifier](https://github.com/tensorturtle/mtb-classifier)
 
