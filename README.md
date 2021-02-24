@@ -4,16 +4,21 @@
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
-## Latest Projects 🎨
+## What I'm working on this week 🎨
 
 ### [HYPER-DOMESTIQUE by Kaboom Labs](https://hyperdomestique.com)
 active safety technology on bicycles, e-bikes and other two-wheeled vehicles.
+
+### [Kind Squared Error](https://tensorturtle.github.io)
+Blog for coding boilerplates mostly for personal use.
+
+## Projects I have finished
 
 ### [mtb-classifier](https://github.com/tensorturtle/mtb-classifier)
 
 Toy deep learning project using [fast.ai](https://github.com/fastai/fastai) to classify images into full suspension and hardtail mountain bikes.
 
-### [Kind Squared Error: boilerplate blog](https://tensorturtle.github.io)
+
 
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
