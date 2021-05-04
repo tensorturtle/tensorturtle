@@ -16,3 +16,6 @@ alias tb='tensorboard dev upload --logdir .'
 alias ga='git add .;git commit -a'
 alias gp='git push'
 alias gl='git pull'
+
+# ssh shortcuts
+alias thalamus='ssh -p 1115 tensorturtle@tesla.ddns.net'

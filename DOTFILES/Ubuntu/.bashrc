@@ -142,16 +142,5 @@ fi
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jason/.mujoco/mujoco200/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jason/.mujoco/mjpro150/bin
 
-# pull Hyper-Domestique
-cd ~/Github-repos/hyper-domestique
-git pull https://github.com/neuroquantifier/hyper-domestique.git
-clear
-echo Pulled latest version of Hyper-Domestique from Github
-
-# activate default experimentation conda environment
 conda activate expenv
-echo Conda 'Experimental Environment' Activated.
-
-cd ~
-
-
+echo "Conda experimental environment activated"
