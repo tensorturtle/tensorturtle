@@ -1,5 +1,8 @@
 # copies dotfiles here to home folder on system
-DEST='~'
 
 cd ..
-cp -r dotfiles/* $DEST
+cd dotfiles
+cp .* ~ # copies files; ignore warnings
+cp -r .* ~ # copies folders; ignore warnings
+
+
