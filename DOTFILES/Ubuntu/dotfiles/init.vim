@@ -30,6 +30,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set relative number
+set relativenumber
+
 set number
 " Sets how many lines of history VIM has to remember
 set history=500
