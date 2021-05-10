@@ -4,7 +4,7 @@ env:
 window:
   dimensions:
     columns: 80
-    lines: 40
+    lines: 35 
 
   padding:
     x: 4
@@ -22,7 +22,7 @@ colors:
     foreground: '#ebdbb2'
 
 scrolling:
-  multiplier: 1
+  multiplier: 4
 
   # Normal colors
   normal:

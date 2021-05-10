@@ -120,14 +120,14 @@ fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/tensorturtle/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/jasonsohn/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/tensorturtle/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/tensorturtle/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/jasonsohn/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/jasonsohn/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/tensorturtle/anaconda3/bin:$PATH"
+        export PATH="/home/jasonsohn/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
