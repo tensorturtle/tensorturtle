@@ -5,10 +5,10 @@ sudo apt upgrade
 
 # use this script to set up a fresh installation of Pop!_OS
 
-sudo apt install -y htop, neovim, atom, timeshift, ssh
+sudo apt install -y htop, neovim, atom, timeshift, ssh, nodejs
+
 # VLC and codec
-sudo apt install -y vlc vlc-data
-sudo apt install -y ubuntu-restricted-extras
+sudo apt install -y vlc vlc-data ubuntu-restricted-extras
 
 
 # setup git and github ssh

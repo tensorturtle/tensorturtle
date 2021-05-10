@@ -1,0 +1,10 @@
+pandas
+numpy
+
+tensorboard
+d2l
+
+tqdm
+
+icecream
+
