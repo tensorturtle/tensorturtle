@@ -9,5 +9,7 @@
 
 'first-setup.sh' script will replace local configuration files with those in this repository.
 
-**If you make any changes to the configuration files locally, you should use upload.sh to copy them to this repository**
+**If you make any changes to the configuration files locally**:
 
+1. Use upload.sh to copy them to this repository
+2. Git commit and push
