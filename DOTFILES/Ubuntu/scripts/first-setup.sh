@@ -14,6 +14,7 @@ sudo apt install -y neovim
 # run apply dotfiles
 ./apply-dotfiles.sh
 
+
 # alacritty
 sudo add-apt-repository ppa:mmstick76/alacritty
 sudo apt install -y alacritty

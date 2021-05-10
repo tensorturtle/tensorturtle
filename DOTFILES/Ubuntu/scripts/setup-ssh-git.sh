@@ -7,6 +7,7 @@ git config --global user.email $GIT_EMAIL
 read -p "Enter git username: " GIT_USERNAME
 git config --global user.name $GIT_USERNAME
 git config --global core.editor vim
+git config pull.rebase true
 
 ssh-keygen -t ed25519 -C "tensorturtle@gmail.com"
 eval "$(ssh-agent -s)"
