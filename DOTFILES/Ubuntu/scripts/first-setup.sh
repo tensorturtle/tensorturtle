@@ -2,11 +2,14 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install -y htop
-
 # use this script to set up a fresh installation of Pop!_OS
 
+sudo apt install -y htop
+
 sudo apt install -y neovim
+
+# setup git and github ssh
+./setup-ssh-git.sh
 
 # alacritty
 sudo add-apt-repository ppa:mmstick76/alacritty
@@ -37,4 +40,6 @@ echo "Find 'mousewheel.min_line_scroll_amount', and enter '90'"
 echo "Find 'mousewheel.acceleration.factor', and enter '20'"
 echo
 read -n 1 -s -r -p "Press any key when done"
+
+
 
