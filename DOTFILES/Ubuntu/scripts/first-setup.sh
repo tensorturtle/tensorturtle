@@ -7,6 +7,11 @@ sudo apt upgrade
 
 sudo apt install -y htop, neovim, atom, timeshift
 
+# VLC and codec
+sudo apt install -y vlc vlc-data
+sudo apt install -y ubuntu-restricted-extras
+
+
 # setup git and github ssh
 ./setup-ssh-git.sh
 
