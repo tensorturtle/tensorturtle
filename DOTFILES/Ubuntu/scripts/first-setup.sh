@@ -11,6 +11,9 @@ sudo apt install -y neovim
 # setup git and github ssh
 ./setup-ssh-git.sh
 
+# run apply dotfiles
+./apply-dotfiles.sh
+
 # alacritty
 sudo add-apt-repository ppa:mmstick76/alacritty
 sudo apt install -y alacritty
