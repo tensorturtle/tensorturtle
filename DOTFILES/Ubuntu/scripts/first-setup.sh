@@ -2,17 +2,20 @@
 sudo apt update
 sudo apt upgrade
 
+
 # use this script to set up a fresh installation of Pop!_OS
 
-sudo apt install -y htop
-
-sudo apt install -y neovim
+sudo apt install -y htop, neovim, atom, timeshift
 
 # setup git and github ssh
 ./setup-ssh-git.sh
 
 # run apply dotfiles
 ./apply-dotfiles.sh
+
+# open ssh port
+sudo ufw enable
+sudo ufw allow ssh
 
 
 # alacritty
