@@ -5,8 +5,7 @@ sudo apt upgrade
 
 # use this script to set up a fresh installation of Pop!_OS
 
-sudo apt install -y htop, neovim, atom, timeshift
-
+sudo apt install -y htop, neovim, atom, timeshift, ssh
 # VLC and codec
 sudo apt install -y vlc vlc-data
 sudo apt install -y ubuntu-restricted-extras
@@ -53,5 +52,6 @@ echo "Find 'mousewheel.acceleration.factor', and enter '20'"
 echo
 read -n 1 -s -r -p "Press any key when done"
 
+./deep-learning-setup.sh
 
-
+pip3 install -r basic-requirements.txt
