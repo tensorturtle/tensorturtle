@@ -39,11 +39,12 @@ cp ../dotfiles/gtk.css ~/.config/gtk-3.0
 echo "Installing Anaconda"
 sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
-cd ~/Downloads
-wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-chmod 777 *.sh
-./Anaconda*
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh -P ~/Downloads
+chmod 777 ~/Downloads/*.sh
+~/Downloads/Anaconda*
 conda config --set auto_activate_base true
+
+./deep-learning-setup.sh
 
 echo
 echo "Open Firefox, and go to 'about:config'"
@@ -52,6 +53,5 @@ echo "Find 'mousewheel.acceleration.factor', and enter '20'"
 echo
 read -n 1 -s -r -p "Press any key when done"
 
-./deep-learning-setup.sh
 
 pip3 install -r basic-requirements.txt
