@@ -10,6 +10,9 @@ sudo apt install -y htop, neovim, atom, timeshift, ssh, nodejs
 # VLC and codec
 sudo apt install -y vlc vlc-data ubuntu-restricted-extras
 
+# jupyter lab
+pip install jupyterlab
+
 
 # setup git and github ssh
 ./setup-ssh-git.sh
@@ -55,3 +58,8 @@ read -n 1 -s -r -p "Press any key when done"
 
 
 pip3 install -r basic-requirements.txt
+
+# enable korean keyboard
+export GTK_IM_MODULE="ibus"
+export QT_IM_MODULE="ibus"
+export XMODIFIERS="@im=ibus"
