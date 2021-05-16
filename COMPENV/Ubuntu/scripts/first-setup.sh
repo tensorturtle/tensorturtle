@@ -59,7 +59,3 @@ read -n 1 -s -r -p "Press any key when done"
 
 pip3 install -r basic-requirements.txt
 
-# enable korean keyboard
-export GTK_IM_MODULE="ibus"
-export QT_IM_MODULE="ibus"
-export XMODIFIERS="@im=ibus"

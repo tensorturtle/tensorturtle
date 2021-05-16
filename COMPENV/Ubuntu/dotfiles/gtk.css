@@ -1,0 +1,7 @@
+scrollbar, scrollbar button, scrollbar slider {
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false;
+    min-width: 25px;
+    min-height: 25px;
+    border-radius: 20;
+}
