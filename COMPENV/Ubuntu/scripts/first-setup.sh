@@ -34,6 +34,11 @@ sudo apt install -y gnome-tweaks
 echo
 echo "Go to https://extensions.gnome.org/extension/307/dash-to-dock/ and install Dash to Dock"
 
+# temp sensors
+sudo apt install -y lm-sensors
+sudo sensors-detect
+sudo service kmod start
+
 # increase scrollbar size
 cp ../dotfiles/gtk.css ~/.config/gtk-3.0
 
