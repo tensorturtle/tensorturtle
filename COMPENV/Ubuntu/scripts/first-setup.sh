@@ -5,7 +5,11 @@ sudo apt upgrade
 
 # use this script to set up a fresh installation of Pop!_OS
 
-sudo apt install -y htop, neovim, atom, timeshift, ssh, nodejs
+sudo apt install -y htop, neovim, atom, timeshift, ssh, openssh-server nodejs
+
+sudo apt install python3-pip
+pip install opencv-python
+
 
 # VLC and codec
 sudo apt install -y vlc vlc-data ubuntu-restricted-extras
@@ -23,7 +27,6 @@ pip install jupyterlab
 # open ssh port
 sudo ufw enable
 sudo ufw allow ssh
-
 
 # alacritty
 sudo add-apt-repository ppa:mmstick76/alacritty
@@ -62,5 +65,5 @@ echo
 read -n 1 -s -r -p "Press any key when done"
 
 
-pip3 install -r basic-requirements.txt
+pip install -r basic-requirements.txt
 
