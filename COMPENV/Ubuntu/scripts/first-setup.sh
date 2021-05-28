@@ -2,21 +2,10 @@
 sudo apt update
 sudo apt upgrade
 
-
 # use this script to set up a fresh installation of Pop!_OS
 
-sudo apt install -y htop, neovim, atom, timeshift, ssh, openssh-server nodejs
-
-sudo apt install python3-pip
-pip install opencv-python
-
-
-# VLC and codec
-sudo apt install -y vlc vlc-data ubuntu-restricted-extras
-
-# jupyter lab
-pip install jupyterlab
-
+sudo apt install -y htop neovim atom timeshift openssh-server nodejs python3-pip vlc vlc-data ubuntu-restricted-extras
+pip install opencv-python jupyterlab
 
 # setup git and github ssh
 ./setup-ssh-git.sh
@@ -27,6 +16,10 @@ pip install jupyterlab
 # open ssh port
 sudo ufw enable
 sudo ufw allow ssh
+sudo ufw allow 5900
+
+# fix vnc remote desktop bug
+gsettings set org.gnome.Vino require-encryption false
 
 # alacritty
 sudo add-apt-repository ppa:mmstick76/alacritty
