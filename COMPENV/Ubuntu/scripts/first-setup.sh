@@ -4,8 +4,12 @@ sudo apt upgrade
 
 # use this script to set up a fresh installation of Pop!_OS
 
+# install korean
+sudo apt install -y language-pack-gnome-ko
+
 sudo apt install -y htop neovim atom timeshift openssh-server nodejs python3-pip vlc vlc-data ubuntu-restricted-extras
 pip install opencv-python jupyterlab
+
 
 # setup git and github ssh
 ./setup-ssh-git.sh
