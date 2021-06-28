@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# C++ autocompiler (run in separate window to editor)
+gg() {
+	rm -f a.out
+	# compile C++ .cpp file and run executable
+	g++ "$1"
+	./a.out
+}
+
 alias start='gnome-terminal -- htop;gnome-terminal -- watch -n 1 nvidia-smi; gnome-terminal -- watch -n 1 sensors;sudo nvidia-smi -pm ENABLED; sudo nvidia-smi -i 0 -pl 125'
 alias er='jupyter lab --notebook-dir ~'
 alias we='jupyter lab --no-browser --port=8888'
@@ -19,17 +27,15 @@ alias gp='git push'
 alias gl='git pull'
 
 # ssh shortcuts
-alias thalamus='ssh -p 1115 tensorturtle@tesla.ddns.net'
+alias ssh-tinylenovo='ssh -p 1115 tensorturtle@tesla.ddns.net'
 
 # turn off the side monitors for VNC remote desktop
 # for when away from keyboard (afk)
 
 alias mine='cd phoenixminer-5.6d && ./Start_miner.sh'
 
-gg() {
-	rm -f a.out
-	# compile C++ .cpp file and run executable
-	g++ "$1"
-	./a.out
-}
+# start jupyter with different language kernels
+SWIFT_JUPYTER_DIR="/home/jasonsohn/Swift-Jupyter-Notebook"
+alias swift-jupyter="cd ~/Swift-Jupyter-Notebook/swift-jupyter && conda deeactivate && conda activate swift-tensorflow && python3 register.py --sys-prefix --swift-python-use-conda --use-conda-shared-libs --swift-toolchain .. && jupyter notebook --port 8888 --notebook-dir ~"
 
+alias cpp-jupyter="conda deactivate && conda activate cling && jupyter lab --port 8888 --notebook-dir ~"
