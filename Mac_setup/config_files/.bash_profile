@@ -11,23 +11,19 @@ export PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/jason/opt/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/jason/opt/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/jason/opt/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/jason/opt/miniconda3/bin:$PATH"
+        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# 'we' and 'er' are shortcuts to launch remote fastai Jupyter notebook
-
-alias we="ssh -p 1118 jasonsohn@tesla.ddns.net"
-alias qw="ssh -p 1118 -NfL localhost:8888:localhost:8888 jasonsohn@tesla.ddns.net"
 
 export PATH="/Users/jason/.local/bin:${PATH}"
 export PATH="/Users/jason/.ghcup:${PATH}"
@@ -42,4 +38,25 @@ alias gp="git push"
 
 alias la="ls -a"
 alias vnc="open -a Safari vnc://tesla.ddns.net:2228"
+
+#homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# conda
+conda activate default
+
+# mount apricots NAS
+alias samba="open 'smb://jason:eraser@granny.local/apricots' && sleep 10 && cd /Volumes/apricots"
+
+alias shutdown="sudo shutdown -h now"
+
+# ssh shortcuts
+alias ssh-shoebox="ssh -p 1118 jasonsohn@tesla.ddns.net"
+alias ssh-tinylenovo="ssh -p 1115 tensorturtle@tesla.ddns.net"
+
+# jupyter notebook forwarding
+alias fwd-jupyter="ssh -p 1118 -NfL localhost:8888:localhost:8888 jasonsohn@tesla.ddns.net; echo Go to localhost:8888"
+
+# tensorboard forwarding
+alias fwd-tb="ssh -p 1118 -NfL localhost:16006:localhost:6006 jasonsohn@tesla.ddns.net; echo Go to localhost:16006"
 
