@@ -36,6 +36,6 @@ alias mine='cd phoenixminer-5.6d && ./Start_miner.sh'
 
 # start jupyter with different language kernels
 SWIFT_JUPYTER_DIR="/home/jasonsohn/Swift-Jupyter-Notebook"
-alias swift-jupyter="cd ~/Swift-Jupyter-Notebook/swift-jupyter && conda deeactivate && conda activate swift-tensorflow && python3 register.py --sys-prefix --swift-python-use-conda --use-conda-shared-libs --swift-toolchain .. && jupyter notebook --port 8888 --notebook-dir ~"
+alias swift-jupyter="cd ~/Swift-Jupyter-Notebook/swift-jupyter && conda deactivate && conda activate swift-tensorflow && python3 register.py --sys-prefix --swift-python-use-conda --use-conda-shared-libs --swift-toolchain .. && jupyter notebook --port 8888 --notebook-dir ~"
 
-alias cpp-jupyter="conda deactivate && conda activate cling && jupyter lab --port 8888 --notebook-dir ~"
+alias cpp-jupyter="conda deactivate && conda deactivate && conda activate cling && jupyter lab --port 8888 --notebook-dir ~"
