@@ -77,5 +77,14 @@ conda activate swift-tensorflow
 conda install jupyter numpy matplotlib
 cd swift-jupyter
 python3 register.py --sys-prefix --swift-python-use-conda --use-conda-shared-libs --swift-toolchain ..
+cd ~
 
+
+# C++ kernel for jupyter notebook
+# see: https://github.com/jupyter-xeus/xeus-cling
+conda deactivate 
+conda create -n cling
+conda activate cling
+conda install xeus-cling -c conda-forge
+conda install jupyter lab
 
