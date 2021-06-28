@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 DEST='../dotfiles'
 cp ~/.bash_aliases $DEST
 cp ~/.bashrc $DEST
