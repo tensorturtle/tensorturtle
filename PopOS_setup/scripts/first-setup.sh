@@ -64,21 +64,7 @@ read -n 1 -s -r -p "Press any key when done"
 pip install -r basic-requirements.txt
 
 # SWIFT kernel on jupyter notebook
-# see: https://github.com/google/swift-jupyter
-
-# download prebuilt for 20.04
-mkdir ~/Swift-Jupyter-Notebook
-cd ~/Swift-Jupyter-Notebook/
-wget https://storage.googleapis.com/swift-tensorflow-artifacts/releases/v0.13/swift-tensorflow-RELEASE-0.13-ubuntu20.04.tar.gz -P ~/Swift-Jupyter-Notebook
-tar xvf ~/Swift-Jupyter-Notebook/*
-git clone https://github.com/google/swift-jupyter.git
-conda create -n swift-tensorflow python=3.6
-conda activate swift-tensorflow
-conda install jupyter numpy matplotlib
-cd swift-jupyter
-python3 register.py --sys-prefix --swift-python-use-conda --use-conda-shared-libs --swift-toolchain ..
-cd ~
-
+./swift-setup.sh
 
 # C++ kernel for jupyter notebook
 # see: https://github.com/jupyter-xeus/xeus-cling

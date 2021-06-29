@@ -158,3 +158,5 @@ export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
 
 #cd ~/Repos/Kaboom-Labs/pytorch-ssd
 
+# append PATH for Swift
+export PATH=~/Swift/toolchain/swift-5.4.2-RELEASE-ubuntu20.04/usr/bin:$PATH
