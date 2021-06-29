@@ -1,3 +1,5 @@
+source ~/anaconda3/etc/profile.d/conda.sh
+
 # this  script sets up Swift for Jupyter Notebook, for Ubuntu 20.04
 # but uses the latest toolchain. The toolchain from https://github.com/google/swift-jupyter is outdated.
 mkdir ~/Swift
@@ -5,11 +7,9 @@ mkdir ~/Swift/swift-jupyter
 mkdir ~/Swift/toolchain
 
 # download jupyter swift core
-git clone https://github.com/google/swift-jupyter.git ~/Swift
+git clone https://github.com/google/swift-jupyter.git ~/Swift/swift-jupyter
 
 # create conda env
-conda init
-conda deactivate
 conda deactivate
 conda create -n swift-tensorflow python=3.6
 conda activate swift-tensorflow
@@ -39,6 +39,8 @@ apt-get install \
 #wget https://storage.googleapis.com/swift-tensorflow-artifacts/releases/v0.13/swift-tensorflow-RELEASE-0.13-ubuntu20.04.tar.gz -P ~/Swift/swift-jupyter
 
 wget https://swift.org/builds/swift-5.4.2-release/ubuntu2004/swift-5.4.2-RELEASE/swift-5.4.2-RELEASE-ubuntu20.04.tar.gz -P ~/Swift/toolchain
+
+sleep 3
 
 tar xvf ~/Swift/toolchain/* -C ~/Swift/toolchain
 
