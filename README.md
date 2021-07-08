@@ -7,6 +7,7 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 ## What I'm working on this week 🎨
 
 ## [Distillation learning by auto-labeling]
+Using YOLOv5 to aut-label images to train SSD detector.
 
 ### [Kind Squared Error](https://tensorturtle.github.io)
 Blog for coding boilerplates mostly for personal use.
