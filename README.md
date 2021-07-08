@@ -6,8 +6,7 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## What I'm working on this week 🎨
 
-### [HYDO by Kaboom Labs](https://hyperdomestique.com)
-active safety technology on bicycles, e-bikes and other two-wheeled vehicles.
+## [Distillation learning by auto-labeling]
 
 ### [Kind Squared Error](https://tensorturtle.github.io)
 Blog for coding boilerplates mostly for personal use.
