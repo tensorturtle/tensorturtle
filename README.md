@@ -4,7 +4,7 @@
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
-## What I'm working on this week 🎨
+## Fresh Projects
 
 ### [Distillation learning by auto-labeling](https://github.com/kaboom-labs/pytorch-ssd)
 Using YOLOv5 to aut-label images to train SSD detector.
@@ -12,7 +12,7 @@ Using YOLOv5 to aut-label images to train SSD detector.
 ### [Kind Squared Error](https://tensorturtle.github.io)
 Blog for coding boilerplates mostly for personal use.
 
-## Projects I have finished
+## Maintained Projects
 
 ### [YOLOv5 + SORT: ready-to-use SOTA object tracking implementation](https://github.com/tensorturtle/classy-sort-yolov5)
 
