@@ -14,10 +14,7 @@ Blog for coding boilerplates mostly for personal use.
 
 ## Projects I have finished
 
-### [mtb-classifier](https://github.com/tensorturtle/mtb-classifier)
-
-Toy deep learning project using [fast.ai](https://github.com/fastai/fastai) to classify images into full suspension and hardtail mountain bikes.
-
+### [YOLOv5 + SORT: ready-to-use SOTA object tracking implementation](https://github.com/tensorturtle/classy-sort-yolov5)
 
 
 <!--
