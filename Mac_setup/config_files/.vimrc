@@ -382,3 +382,14 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Abbreviations
+"
+" Used for auto-correcting frequently misspelled words.
+
+ab improt import
+ab slef self
+
+" Shortcut to compile and run C program
+map <F8> : !gcc % && ./a.out <CR>
