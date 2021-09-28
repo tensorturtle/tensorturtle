@@ -1,5 +1,6 @@
 # USAGE:
 # ./mount-unraid name_of_share
+echo "Make sure 'cifs-utils' is installed (sudo apt install cifs-utils)"
 
 IP_ADDR="172.30.1.147"
 sudo mkdir ~/unraid
