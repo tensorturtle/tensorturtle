@@ -1,7 +1,5 @@
 ### Hi, I'm Jason 👋
 
-**Lead Developer at Kaboom Labs**
-
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Fresh Projects
