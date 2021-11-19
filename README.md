@@ -4,9 +4,6 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Fresh Projects
 
-### [Mobilenet SSD training with PyTorch](https://github.com/kaboom-labs/pytorch-ssd)
-Order of magnitude improvements in Mobilenet SSD training time.
-
 
 
 ## Maintained Projects
