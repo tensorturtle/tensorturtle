@@ -4,7 +4,7 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ## Fresh Projects
 
-
+[MedusaNets](https://github.com/tensorturtle/medusanets): learning Tesla AI's HydraNets
 
 ## Maintained Projects
 
