@@ -10,9 +10,6 @@ Invention is my passion, contemplation is my hobby, and learning is my habit.
 
 ### [YOLOv5 + SORT: ready-to-use SOTA object tracking implementation](https://github.com/tensorturtle/classy-sort-yolov5)
 
-### [Kind Squared Error](https://tensorturtle.github.io)
-Blog for Python & PyTorch coding idioms mostly for personal use.
-
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
