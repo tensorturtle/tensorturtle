@@ -2,14 +2,6 @@
 
 Invention is my passion, contemplation is my hobby, and learning is my habit.
 
-## Fresh Projects
-
-### [MedusaNets](https://github.com/tensorturtle/medusanets)
-
-## Maintained Projects
-
-### [YOLOv5 + SORT: ready-to-use SOTA object tracking implementation](https://github.com/tensorturtle/classy-sort-yolov5)
-
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
