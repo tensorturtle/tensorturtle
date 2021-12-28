@@ -22,6 +22,11 @@ sudo ufw enable
 sudo ufw allow ssh
 sudo ufw allow 5900
 
+# fail2ban: block IPs that try and fail multiple times to log in
+sudo apt install fail2ban
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
+
 # fix vnc remote desktop bug
 gsettings set org.gnome.Vino require-encryption false
 
@@ -68,7 +73,7 @@ pip install -r basic-requirements.txt
 
 # C++ kernel for jupyter notebook
 # see: https://github.com/jupyter-xeus/xeus-cling
-conda deactivate 
+conda deactivate
 conda create -n cling
 conda activate cling
 conda install xeus-cling -c conda-forge
