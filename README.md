@@ -1,8 +1,6 @@
 ### Hi, I'm Jason 👋
 
-🔬 For the inside scoop, visit my website at [tensorturtle.com](https://tensorturtle.com) !
-
-Invention is my passion, contemplation is my hobby, and learning is my habit.
+🔬 For the inside scoop, please visit [my website!](https://tensorturtle.com)
 
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
