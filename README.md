@@ -1,6 +1,7 @@
 ### Hi, I'm Jason 👋
 
-🔬 See what I've been up to at [my website!](https://tensorturtle.com)
+
+👀 See what I've been up to at [my website!](https://tensorturtle.com)
 
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
