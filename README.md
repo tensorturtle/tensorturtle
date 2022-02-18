@@ -3,6 +3,12 @@
 
 See what I've been up to at [my website!](https://jasonsohn.com) 👀 
 
+## Latest Projects
+
+[### HYDO Velovision: The world's first cyclist overtake warning system](https://github.com/hydoai/velovision)
+[![](https://github.com/hydoai/brand-id/raw/main/velovision/velovision-banner-pictures.png)](https://github.com/hydoai/velovision)
+
+
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
