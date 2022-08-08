@@ -7,7 +7,7 @@ sudo apt upgrade
 # install korean
 sudo apt install -y language-pack-gnome-ko
 
-sudo apt install -y htop neovim atom timeshift openssh-server nodejs python3-pip vlc vlc-data ubuntu-restricted-extras nvidia-cuda-toolkit
+sudo apt install -y htop neovim timeshift openssh-server nodejs python3-pip vlc vlc-data ubuntu-restricted-extras nvidia-cuda-toolkit
 pip install opencv-python jupyterlab
 
 
