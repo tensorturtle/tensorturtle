@@ -5,7 +5,7 @@ I
 ## Latest Projects
 
 ### [PrepGPT: Digital SAT exam question generation for teachers and students](https://prepgpt.xyz)
-
+[![](banner/sized-prepgpt-anim-banner.gif)](https://prepgpt.xyz)
 
 ### [HYDO Velovision: The world's first open source cyclist overtake warning system](https://github.com/hydoai/velovision)
 [![](https://github.com/hydoai/brand-id/raw/main/velovision/velovision-banner-pictures.png)](https://github.com/hydoai/velovision)
