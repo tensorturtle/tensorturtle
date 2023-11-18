@@ -1,7 +1,5 @@
 ### Hi, I'm Jason 👋
 
-I
-
 ## Latest Projects
 
 ### [PrepGPT: Digital SAT exam question generation for teachers and students](https://prepgpt.xyz)
