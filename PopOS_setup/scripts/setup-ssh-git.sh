@@ -1,7 +1,7 @@
 
 #!/bin/bash
 sudo apt update
-sudo apt install git xclip
+sudo apt install -y git xclip
 # setup git username and email
 read -p "Enter GitHub email: " GIT_EMAIL
 git config --global user.email $GIT_EMAIL
