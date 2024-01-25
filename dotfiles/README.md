@@ -1,12 +1,36 @@
 # Dotfiles
 
-Inspired by [Micha van den Burg](https://www.youtube.com/watch?v=iagjeLuxnMs), who is in turn inspired by [rwxrob](https://www.youtube.com/@rwxrob)
+This repository contains cross-platform bash setup that lets me get up and running quickly from scratch.
 
-Micha's [dotfiles repo](https://github.com/mischavandenburg/dotfiles)
+Inspired by [Micha van den Burg](https://github.com/mischavandenburg/dotfiles) and [rwxrob](https://www.youtube.com/@rwxrob)
 
 
-Opinionated stuff
-+ Cross-platform (Mac and Linux)
-+ Use bash not zsh
+# macOS
 
-WORK IN PROGRESS
+Install homebrew. Then install following packages using homebrew:
++ neovim
++ tmux
+
+
+`~/.bash_profile`:
+```
+# Sources ~/.bashrc
+[ -f ~/.bashrc ] && . ~/.bashrc
+```
+
+`~/.bashrc`:
+```
+PS1='\u@\h: \w @ '
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export HOMEBREW_PREFIX="/opt/homebrew"
+export PATH=$PATH:/opt/homebrew/bin
+
+alias ls="ls -a"
+alias bash="/opt/homebrew/bin/bash"
+alias vim="nvim"
+
+alias gl="git pull"
+alias ga="git add . & git commit -a"
+alias gp="git push"
+```
