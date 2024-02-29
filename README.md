@@ -12,13 +12,6 @@
 [![](https://github.com/hydoai/brand-id/raw/main/velovision/velovision-banner-pictures.png)](https://github.com/hydoai/velovision)
 
 
-[Jubo](https://tensorturtle-wanj0nh1gaeebangden34pailsuhbuh.s3.ap-northeast-2.amazonaws.com/j-dream-jubo-2024-01-27.pdf)
-
-[Jaeil](https://tensorturtle-wanj0nh1gaeebangden34pailsuhbuh.s3.ap-northeast-2.amazonaws.com/Jaeil+Lee+Letter+from+the+INUMC.pdf)
-
-[Akbo](https://tensorturtle-wanj0nh1gaeebangden34pailsuhbuh.s3.ap-northeast-2.amazonaws.com/2024-01-27+%E1%84%8B%E1%85%A1%E1%86%A8%E1%84%87%E1%85%A9.pdf)
-
-
 <!--
 **neuroquantifier/neuroquantifier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
