@@ -8,7 +8,7 @@ A small (1 core, 1GB RAM) VPS uses Caddy as a reverse proxy. Caddy server termin
 
 OS: FreeBSD 14
 
-Install Tailscale:
+### Install Tailscale:
 ```
 pkg install tailscale
 ```
@@ -18,3 +18,20 @@ After reboot, run `tailscale up --advertise-exit-node`
 
 The exit node functionality is not necessary but it's a nice to have.
 
+### Install Caddy server
+
+```
+pkg install caddy
+```
+Edit Caddyfile
+```
+cd /usr/local/etc/caddy
+vim Caddyfile
+```
+To something like:
+```
+www.mywebsite.com {
+  reverse_proxy 100.101.102.103:3000
+}
+```
+Where the A record for `www.mywebsite.com` points to the public IP of this VPS, and the destination IP is the tailscale net IP of the web server that actually processes the request.
