@@ -35,3 +35,9 @@ www.mywebsite.com {
 }
 ```
 Where the A record for `www.mywebsite.com` points to the public IP of this VPS, and the destination IP is the tailscale net IP of the web server that actually processes the request.
+
+```
+caddy stop
+caddy reload
+caddy start
+```
