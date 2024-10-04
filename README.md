@@ -5,8 +5,8 @@
 ### Velovision Rearview: Open source wireless camera for cycling AI
 ![](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true)
 
-### [PrepGPT: Digital SAT exam question generation for teachers and students](https://prepgpt.xyz)
-[![](banners/sized-prepgpt-anim-banner.gif)](https://prepgpt.xyz)
+### [PrepGPT: Digital SAT exam question generation for teachers and students](https://try.prepgpt.xyz)
+[![](banners/sized-prepgpt-anim-banner.gif)](https://try.prepgpt.xyz)
 
 ### [HYDO Velovision: The world's first open source cyclist overtake warning system](https://github.com/hydoai/velovision)
 [![](https://github.com/hydoai/brand-id/raw/main/velovision/velovision-banner-pictures.png)](https://github.com/hydoai/velovision)
