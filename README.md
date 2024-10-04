@@ -3,7 +3,7 @@
 ## Latest Projects
 
 ### Velovision Rearview: Open source wireless camera for cycling AI
-[](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true)
+![](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true)
 
 ### [PrepGPT: Digital SAT exam question generation for teachers and students](https://prepgpt.xyz)
 [![](banners/sized-prepgpt-anim-banner.gif)](https://prepgpt.xyz)
