@@ -1,3 +1,5 @@
+There is no such thing as AI, only human ingenuity.
+
 ## Current Projects
 
 ### [Velovision: Your cycling superpower](https://velovision.app)
