@@ -3,7 +3,7 @@
 ## Latest Projects
 
 ### [Velovision: Your cycling superpower](https://velovision.app)
-[![](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true)])(https://velovision.app)
+[![](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true))](https://velovision.app)
 
 ### [PrepGPT: Digital SAT exam question generation for teachers and students](https://try.prepgpt.xyz)
 [![](banners/sized-prepgpt-anim-banner.gif)](https://try.prepgpt.xyz)
