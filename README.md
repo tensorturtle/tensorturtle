@@ -1,4 +1,4 @@
-There is no such thing as AI, only human ingenuity.
+There is no such thing as AI. There is only human ingenuity.
 
 ## Current Projects
 
