@@ -1,5 +1,3 @@
-### Hi, I'm Jason 👋
-
 ## Current Projects
 
 ### [Velovision: Your cycling superpower](https://velovision.app)
