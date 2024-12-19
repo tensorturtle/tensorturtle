@@ -2,7 +2,7 @@
 
 ## Latest Projects
 
-### [Velovision: AI for Enjoyable Cycling](https://velovision.app)
+### [Velovision: Your cycling superpower](https://velovision.app)
 ![](https://github.com/velovision/rearview/blob/main/readme_assets/velovision-rearview-banner.jpg?raw=true)
 
 ### [PrepGPT: Digital SAT exam question generation for teachers and students](https://try.prepgpt.xyz)
