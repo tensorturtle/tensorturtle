@@ -1,4 +1,4 @@
-There is no such thing as AI. There is only human ingenuity.
+Complexity is the enemy.
 
 ## Current Projects
 
