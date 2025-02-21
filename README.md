@@ -1,3 +1,3 @@
 Complexity is the enemy.
 
-Right now I'm working on Velovision.
+Right now I'm building Velovision.
